@@ -1,0 +1,149 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Sklep.PortalWWW.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Sklep.PortalWWW.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\53d160ba-24e9-4214-8f0b-3444c5b9b7d8.png",
+      "PackagePath": "staticwebassets\\images\\53d160ba-24e9-4214-8f0b-3444c5b9b7d8.png"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\Burza.jpg",
+      "PackagePath": "staticwebassets\\images\\Burza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\Gra1.jpg",
+      "PackagePath": "staticwebassets\\images\\Gra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\GryPlanszowe.jpg",
+      "PackagePath": "staticwebassets\\images\\GryPlanszowe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\HP1.jpg",
+      "PackagePath": "staticwebassets\\images\\HP1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\HP2.jpg",
+      "PackagePath": "staticwebassets\\images\\HP2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\HP3.jpg",
+      "PackagePath": "staticwebassets\\images\\HP3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\HP3v1.jpg",
+      "PackagePath": "staticwebassets\\images\\HP3v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\HP4.jpg",
+      "PackagePath": "staticwebassets\\images\\HP4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\HP5.jpg",
+      "PackagePath": "staticwebassets\\images\\HP5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\Korona.jpg",
+      "PackagePath": "staticwebassets\\images\\Korona.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\Ksiazki.jpg",
+      "PackagePath": "staticwebassets\\images\\Ksiazki.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\Terapeutka.jpg",
+      "PackagePath": "staticwebassets\\images\\Terapeutka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\acb7a90c-2ee8-4a27-a9a4-a1824cf69f6f.jpg",
+      "PackagePath": "staticwebassets\\images\\acb7a90c-2ee8-4a27-a9a4-a1824cf69f6f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\android-desktop.png",
+      "PackagePath": "staticwebassets\\images\\android-desktop.png"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\b8f21540-7182-403b-be65-51bfa7ca523a.png",
+      "PackagePath": "staticwebassets\\images\\b8f21540-7182-403b-be65-51bfa7ca523a.png"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\c195cea0-611f-41c7-b2bf-d5da81533b0a.jpg",
+      "PackagePath": "staticwebassets\\images\\c195cea0-611f-41c7-b2bf-d5da81533b0a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\darkmodeicon.png",
+      "PackagePath": "staticwebassets\\images\\darkmodeicon.png"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\db5911b1-c4c3-4326-be1f-971b01d7dcd7.jpg",
+      "PackagePath": "staticwebassets\\images\\db5911b1-c4c3-4326-be1f-971b01d7dcd7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\dog.png",
+      "PackagePath": "staticwebassets\\images\\dog.png"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\ios-desktop.png",
+      "PackagePath": "staticwebassets\\images\\ios-desktop.png"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\muzyka.jpg",
+      "PackagePath": "staticwebassets\\images\\muzyka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\test.jpg",
+      "PackagePath": "staticwebassets\\images\\test.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\tlo.jpg",
+      "PackagePath": "staticwebassets\\images\\tlo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\48505\\Desktop\\OstatniSemestr\\apkiInternetowe\\Sklep\\Sklep.PortalWWW\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Sklep.PortalWWW.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Sklep.PortalWWW.props",
+      "PackagePath": "build\\Sklep.PortalWWW.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Sklep.PortalWWW.props",
+      "PackagePath": "buildMultiTargeting\\Sklep.PortalWWW.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Sklep.PortalWWW.props",
+      "PackagePath": "buildTransitive\\Sklep.PortalWWW.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

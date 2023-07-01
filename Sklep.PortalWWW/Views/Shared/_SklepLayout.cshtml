@@ -1,0 +1,161 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>@ViewData["Title"]</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        @await Html.PartialAsync("OdnosnikiRodzaj",(IEnumerable<Sklep.Data.Models.Rodzaj>) ViewBag.Rodzaj)
+    </nav>
+
+    <!-- Header-->
+    <style>
+        /* Styl dla light-mode */
+        /* Styl dla light mode */
+        body {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+            /* Styl dla dark mode */
+            body.dark-mode {
+                background-color: #1c1c1c;
+                color: #ffffff;
+            }
+
+       
+        /* Styl dla light mode */
+        .card {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        /* Styl dla dark mode */
+        .dark-mode .card {
+            background-color: #333333;
+            color: #ffffff;
+        }
+
+        /* Styl dla light mode */
+        .btn {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        /* Styl dla dark mode */
+        .dark-mode .btn {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+    </style>
+
+   
+  
+    <div style="min-height: 100vh">@RenderBody()</div>
+   
+  
+    <section>
+        @*@await Html.PartialAsync("Aktualnosci",(IEnumerable<Sklep.Data.Models.CMS.Aktualnosc>) ViewBag.ModelAktualnosci)*@
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+    <script>
+        // Obsługa zdarzenia wysyłania formularza wyszukiwania
+        document.getElementById("searchForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Zapobieganie domyślnemu przekierowaniu formularza
+
+            // Pobieranie wartości z pola wyszukiwania
+            var searchQuery = document.getElementById("searchInput").value;
+
+            // Wywołanie funkcji wyszukiwania produktów
+            searchProducts(searchQuery);
+        });
+
+        // Funkcja wyszukiwania produktów
+        async function searchProducts(searchQuery) {
+            try {
+                var response = await fetch(`@Url.Action("Search", "Sklep")?searchQuery=${encodeURIComponent(searchQuery)}`);
+                var products = await response.json();
+
+                // Obsługa odebranych danych (np. aktualizacja listy wyników)
+                handleSearchResults(products);
+            } catch (error) {
+                console.error("Wystąpił błąd podczas wyszukiwania produktów:", error);
+            }
+        }
+
+        // Funkcja obsługująca wyniki wyszukiwania
+        function handleSearchResults(products) {
+            var searchResultsDiv = document.getElementById("searchResults");
+
+            // Wyczyszczenie listy wyników
+            searchResultsDiv.innerHTML = "";
+
+            // Tworzenie elementów dla każdego produktu
+            products.forEach(product => {
+                var productDiv = document.createElement("div");
+                productDiv.textContent = product.Name;
+                searchResultsDiv.appendChild(productDiv);
+            });
+        }
+    </script>
+    <script>
+        function clearSearch() {
+            document.getElementById("searchInput").value = "";
+        }
+    </script>
+    <script>
+        function dodajDoKoszyka(id) {
+            // Wywołanie akcji DodajDoKoszyka z przekazaniem identyfikatora produktu
+            window.location.href = '@Url.Action("DodajDoKoszyka", "Koszyk")' + '?id=' + id;
+        }
+    </script>
+    <script>
+        const modeToggleButton = document.getElementById('mode-toggle-button');
+        const body = document.body;
+
+        modeToggleButton.addEventListener('click', function () {
+            body.classList.toggle('dark-mode');
+        });
+
+        // Sprawdzenie stanu trybu dark mode podczas wczytywania strony i zachowanie go na przyszłość
+        window.addEventListener('load', function () {
+            const isDarkModeEnabled = localStorage.getItem('darkModeEnabled') === 'true';
+
+            if (isDarkModeEnabled) {
+                body.classList.add('dark-mode');
+            }
+        });
+
+        // Zapisanie stanu trybu dark mode w localStorage po jego zmianie
+        body.addEventListener('click', function () {
+            const isDarkModeEnabled = body.classList.contains('dark-mode');
+            localStorage.setItem('darkModeEnabled', isDarkModeEnabled);
+        });
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Sklep.Data.Models.Product>
+
+<div class="row mt-5">
+    <div class="col">
+        <h3>Recommended Products</h3>
+        <div id="recommendedCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @for (int i = 0; i < Model.Count(); i += 3)
+                {
+                    
+                    <div class="carousel-item @(i == 0 ? "active" : "")">
+                        <div class="container px-4 px-lg-5 mt-5">
+                            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+                                @foreach (var towar in Model.Skip(i).Take(3))
+                                {
+                                    <div class="col-md-4 mb-5">
+                                        <div class="card h-100">
+                                            <!-- Product image-->
+                                            <div class="card-img-top-container">
+                                                @if (towar.Images?.Count > 0)
+                                                {
+                                                    foreach (var image in towar.Images)
+                                                    {
+                                                        <img class="card-img-top" src="~/images/@image.ImagePath?@DateTime.Now.Ticks" alt="..." />
+                                                        break;
+                                                        <!-- Assuming you want to display the first image -->
+                                                    }
+                                                }
+                                            
+                                        </div>
+                                        <!-- Product details-->
+                                        <div class="card-body p-4">
+                                            <div class="text-center">
+                                                <!-- Product name-->
+                                                <h5 class="fw-bolder">@Html.ActionLink(towar.Name, "Details", "Sklep", new { id = towar.Id }, null)</h5>
+                                                <!-- Product price-->
+                                                <span class="product-price">@towar.Price</span>
+                                            </div>
+                                        </div>
+                                        <!-- Product actions-->
+                                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" onclick="dodajDoKoszyka(@towar.Id)">Dodaj do koszyka</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    </div>
+                    
+                }
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#recommendedCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#recommendedCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+                                        }

@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Sklep.PortalWWW
+build_property.RootNamespace = Sklep.PortalWWW
+build_property.ProjectDir = C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.PortalWWW\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.PortalWWW
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Aktualnosc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Home/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Koszyk/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29zenlrXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Koszyk/PotwierdzenieZamowienia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29zenlrXFBvdHdpZXJkemVuaWVaYW1vd2llbmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Koszyk/Zamowienie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29zenlrXFphbW93aWVuaWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/Aktualnosci.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFrdHVhbG5vc2NpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/HeaderImagesRodzaje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlckltYWdlc1JvZHphamUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/Odnosniki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9kbm9zbmlraS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/OdnosnikiRodzaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9kbm9zbmlraVJvZHphai5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/Podkategorie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBvZGthdGVnb3JpZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/RecommendedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlY29tbWVuZGVkUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/_KoszykLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Lb3N6eWtMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Sklep/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsZXBcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Sklep/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsZXBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lralys93i8
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.PortalWWW/Views/Shared/_SklepLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ta2xlcExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-e1wedrhon6

@@ -1,0 +1,22 @@
+﻿@model Sklep.Data.Models.CMS.Strona
+@{
+    ViewData["Title"] = Model.LinkTytul;
+    
+}
+<main role="main">
+    <div class="jumbotron d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Dodana klasa justify-content-center -->
+                <div class="col-md-12 text-center">
+                    <h1 class="display-3">@Model.Tytul</h1>
+                    <p>@Model.Tresc</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Przycisk</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+

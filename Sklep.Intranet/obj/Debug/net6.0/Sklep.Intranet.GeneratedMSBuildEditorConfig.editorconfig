@@ -1,0 +1,141 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Sklep.Intranet
+build_property.RootNamespace = Sklep.Intranet
+build_property.ProjectDir = C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Intranet\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Intranet
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Aktualnosc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Aktualnosc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Aktualnosc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Aktualnosc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Aktualnosc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Podkategoria/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ka2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Podkategoria/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ka2F0ZWdvcmlhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Podkategoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ka2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Rodzaj/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Rodzaj/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Rodzaj/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Rodzaj/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Strona/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Ryb25hXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Strona/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Ryb25hXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Strona/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Ryb25hXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Strona/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Ryb25hXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Strona/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Ryb25hXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48505/Desktop/OstatniSemestr/apkiInternetowe/Sklep/Sklep.Intranet/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7m76ut8ml5

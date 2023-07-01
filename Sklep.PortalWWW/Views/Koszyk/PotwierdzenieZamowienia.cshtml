@@ -1,0 +1,17 @@
+﻿@model Sklep.Data.Models.Order
+@{
+    ViewData["Title"] = "Potwierdzenie zamówienia";
+    Layout = "~/Views/Shared/_KoszykLayout.cshtml";
+}
+
+<h2>Potwierdzenie zamówienia</h2>
+
+<p>Dziękujemy za złożenie zamówienia nr @Model.Id.</p>
+<p>Szczegóły zamówienia:</p>
+<ul>
+    <li>Klient: @Model.Customer</li>
+    <li>Adres: @Model.Address</li>
+    <li>Data zamówienia: @Model.OrderDate</li>
+</ul>
+
+<p>Dziękujemy za zakupy!</p>

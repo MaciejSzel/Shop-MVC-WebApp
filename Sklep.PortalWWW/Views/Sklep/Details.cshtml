@@ -1,0 +1,51 @@
+﻿@model Sklep.Data.Models.Product
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_SklepLayout.cshtml";
+}
+<!-- Product details view -->
+<link rel="stylesheet" href="~/css/styles.css" />
+<div class="container px-4 px-lg-5 mt-5">
+    <div class="row gx-4 gx-lg-5 align-items-center">
+        <div class="col-md-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    @if (Model.Images?.Count > 0)
+                    {
+                        foreach (var image in Model.Images)
+                        {
+                            <div class="carousel-item active">
+                                <img class="card-img-top" src="~/images/@image.ImagePath" alt="Book Cover">
+                            </div>
+                        }
+                    }
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card-body p-4">
+                <h2 class="fw-bolder">@Model.Name</h2>
+                <h4 class="fw-bold">@Model.Price</h4>
+                <p class="lead">@Model.Description</p>
+               
+                <div class="d-flex">
+                    <button class="btn btn-outline-dark flex-fill me-2" type="button" onclick="dodajDoKoszyka(@Model.Id)">Dodaj do koszyka</button>
+                    <button class="btn btn-outline-dark flex-fill" type="button" onclick="window.location.href='@Url.Action("Index", "Sklep")'">Wróć do sklepu</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Recommended products -->
+@await Html.PartialAsync("RecommendedProducts",(IEnumerable<Sklep.Data.Models.Product>) ViewBag.RecommendedProducts)
+
+

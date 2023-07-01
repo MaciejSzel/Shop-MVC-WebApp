@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Sklep.Data.Models.Podkategoria>
+<div class="col-md-2">
+    <div class="d-flex flex-column">
+        @if (ViewBag.Rodzaj != null && ViewBag.Rodzaj.Count > 0)
+        {
+            foreach (var podkategoria in Model)
+            {
+                var rodzajId = podkategoria.Rodzaj.IdRodzaju;
+                <button class="btn btn-outline-dark mb-2" type="button" onclick="location.href='@Url.Action("Index", "Sklep", new { id = rodzajId, podkategoriaId = podkategoria.IdPodkategorii, searchQuery = ViewBag.SearchQuery })'">@podkategoria.Nazwa</button>
+@*                        <a class="nav-link active" aria-current="page" @Html.ActionLink(podkategoria.Nazwa,"Index","Sklep",new { id = rodzajId, podkategoriaId = podkategoria.IdPodkategorii, searchQuery = ViewBag.SearchQuery },null)></a>
+*@            }
+        }
+    </div>
+</div>
+

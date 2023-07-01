@@ -1,0 +1,111 @@
+﻿
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Sklep-Home page</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/css/styles.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        @await Html.PartialAsync("Odnosniki",(IEnumerable<Sklep.Data.Models.CMS.Strona>) ViewBag.ModelStrony)
+            <form class="form-inline my-2 my-lg-0">
+            <button id="mode-toggle-button" type="button" style="padding: 4px; background-color : #1c1c1c;"><img src="~/images/darkmodeicon.png" alt="My Icon" style="width: 30px; height: 30px; margin-right: 4px;" /></button>
+            </form>
+        
+    </nav>
+
+    <main role="main">
+
+        <style>
+            /* Styl dla light-mode */
+            /* Styl dla light mode */
+            body {
+                background-color: #ffffff;
+                color: #000000;
+            }
+
+                /* Styl dla dark mode */
+                body.dark-mode {
+                    background-color: #1c1c1c;
+                    color: #ffffff;
+                }
+
+
+            /* Styl dla light mode */
+            .card {
+                background-color: #ffffff;
+                color: #000000;
+            }
+
+            /* Styl dla dark mode */
+            .dark-mode .card {
+                background-color: #333333;
+                color: #ffffff;
+            }
+
+            /* Styl dla light mode */
+            .btn {
+                background-color: #ffffff;
+                color: #000000;
+            }
+
+            /* Styl dla dark mode */
+            .dark-mode .btn {
+                background-color: #1a1a1a;
+                color: #ffffff;
+            }
+
+        </style>
+    </main>
+    <div style="min-height: 100vh">@RenderBody()</div>
+    <footer class="container">
+        <p>&copy; Company 2017-2018</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="~/js/scripts.js"><\/script>')</script>
+    <script src="~/js/scripts.js"></script>
+    <script src="~/js/scripts.js"></script>
+    <script>
+        const modeToggleButton = document.getElementById('mode-toggle-button');
+        const body = document.body;
+
+        modeToggleButton.addEventListener('click', function () {
+            body.classList.toggle('dark-mode');
+        });
+
+        // Sprawdzenie stanu trybu dark mode podczas wczytywania strony i zachowanie go na przyszłość
+        window.addEventListener('load', function () {
+            const isDarkModeEnabled = localStorage.getItem('darkModeEnabled') === 'true';
+
+            if (isDarkModeEnabled) {
+                body.classList.add('dark-mode');
+            }
+        });
+
+        // Zapisanie stanu trybu dark mode w localStorage po jego zmianie
+        body.addEventListener('click', function () {
+            const isDarkModeEnabled = body.classList.contains('dark-mode');
+            localStorage.setItem('darkModeEnabled', isDarkModeEnabled);
+        });
+    </script>
+</body>
+</html>

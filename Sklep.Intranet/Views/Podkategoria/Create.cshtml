@@ -1,0 +1,24 @@
+﻿@model Sklep.Data.Models.Podkategoria
+
+@{
+    ViewData["Title"] = "Dodaj Podkategorie";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Nazwa">Nazwa</label>
+        <input asp-for="Nazwa" class="form-control" />
+        <span asp-validation-for="Nazwa" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Opis">Opis</label>
+        <input asp-for="Opis" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="RodzajId">Rodzaj</label>
+        <select asp-for="RodzajId" asp-items="@ViewBag.Rodzaje" class="form-control"></select>
+    </div>
+    <button type="submit" class="btn btn-primary">Dodaj</button>
+</form>

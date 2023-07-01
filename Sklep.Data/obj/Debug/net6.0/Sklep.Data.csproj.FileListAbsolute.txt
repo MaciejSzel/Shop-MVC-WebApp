@@ -1,0 +1,14 @@
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\bin\Debug\net6.0\Sklep.Data.deps.json
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\bin\Debug\net6.0\Sklep.Data.runtimeconfig.json
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\bin\Debug\net6.0\Sklep.Data.dll
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\bin\Debug\net6.0\Sklep.Data.pdb
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\obj\Debug\net6.0\Sklep.Data.csproj.AssemblyReference.cache
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\obj\Debug\net6.0\Sklep.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\obj\Debug\net6.0\Sklep.Data.AssemblyInfoInputs.cache
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\obj\Debug\net6.0\Sklep.Data.AssemblyInfo.cs
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\obj\Debug\net6.0\Sklep.Data.csproj.CoreCompileInputs.cache
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\obj\Debug\net6.0\Sklep.Data.dll
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\obj\Debug\net6.0\refint\Sklep.Data.dll
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\obj\Debug\net6.0\Sklep.Data.pdb
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\obj\Debug\net6.0\Sklep.Data.genruntimeconfig.cache
+C:\Users\48505\Desktop\OstatniSemestr\apkiInternetowe\Sklep\Sklep.Data\obj\Debug\net6.0\ref\Sklep.Data.dll

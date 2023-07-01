@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Sklep.Data.Models.Rodzaj>
+
+<header class="bg-dark py-5">
+    @foreach(var image in Model){
+        <img class="card-img-top" src="~/images/@image.RodzajImagePath" alt="..." style="object-fit: contain; height: 350px" />
+    }
+
+</header>

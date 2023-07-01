@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Sklep.Data.Models.CMS.Aktualnosc>
+@{
+    ViewData["Title"] = "Aktualności";
+}
+
+<div class="container px-4 px-lg-5 mt-5">
+    <div class="row justify-content-center">
+        <!-- Dodana klasa justify-content-center -->
+        <div class="col-md-8">
+            <!-- Zmieniono szerokość kolumny na col-md-8 -->
+            <h1 class="text-center">Aktualności</h1> <!-- Dodana klasa text-center -->
+            <hr />
+
+            @foreach (var item in Model)
+            {
+                <div class="card mb-4">
+                    <!-- Dodana klasa card i mb-4 -->
+                    <div class="card-body">
+                        <h2 class="card-title">Aktualność: @item.Tytul</h2>
+                        <p class="card-text">@item.Tresc</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">Zobacz szczegóły &raquo;</a></p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

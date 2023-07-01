@@ -1,0 +1,72 @@
+﻿@model Sklep.Data.Models.Product
+
+@{
+    ViewData["Title"] = "Edytuj produkt";
+}
+
+<h2>Edytuj produkt</h2>
+
+<form asp-action="Edit" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Name" class="control-label">Nazwa</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description" class="control-label">Opis</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price" class="control-label">Cena</label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Quantity" class="control-label">Ilość</label>
+        <input asp-for="Quantity" class="form-control" />
+        <span asp-validation-for="Quantity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IsActive" class="control-label">Aktywny</label>
+        <input asp-for="IsActive" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RodzajId" class="control-label">Rodzaj</label>
+        <select asp-for="RodzajId" asp-items="@(new SelectList(ViewBag.Rodzaje, "IdRodzaju", "Nazwa"))" class="form-control">
+            <option value="">- Wybierz rodzaj -</option>
+        </select>
+        <span asp-validation-for="RodzajId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PodkategoriaId" class="control-label">Podkategoria</label>
+        <select asp-for="PodkategoriaId" asp-items="@(new SelectList(ViewBag.Podkategorie, "IdPodkategorii", "Nazwa"))" class="form-control">
+            <option value="">- Wybierz podkategorie -</option>
+        </select>
+        <span asp-validation-for="PodkategoriaId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Images" class="control-label">Obrazek</label>
+        <input type="file" name="imageFile" class="form-control" />
+        <span asp-validation-for="Images" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Zapisz" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Anuluj</a>
+    </div>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

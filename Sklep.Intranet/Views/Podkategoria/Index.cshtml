@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Sklep.Data.Models.Podkategoria>
+
+@{
+    ViewData["Title"] = "Podkategorie";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <a asp-action="Create" class="btn btn-primary mb-3">Dodaj</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nazwa</th>
+            <th>Opis</th>
+            <th>Rodzaj</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var podkategoria in Model)
+        {
+            <tr>
+                <td>@podkategoria.Nazwa</td>
+                <td>@podkategoria.Opis</td>
+                <td>@(podkategoria.Rodzaj?.Nazwa)</td>
+                <td>
+                    <a  class="btn btn-primary btn-sm">@Html.ActionLink("Edytuj","Edit","Podkategoria",  new { id = podkategoria.IdPodkategorii }, null)</a>
+                    <a asp-action="Delete" asp-route-id="@podkategoria.IdPodkategorii" class="btn btn-danger btn-sm">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

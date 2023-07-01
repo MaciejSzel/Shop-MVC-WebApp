@@ -1,0 +1,34 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@model Sklep.Data.Models.Order
+@{
+    ViewData["Title"] = "Zamowienie";
+    Layout = "~/Views/Shared/_KoszykLayout.cshtml";
+}
+
+<h2>Zamówienie</h2>
+
+<div class="form-container">
+    <form method="post" action="@Url.Action("Zamowienie")">
+        <div class="form-group">
+            <label for="Customer">E-mail:</label>
+            <input type="text" class="form-control" id="Customer" name="Customer">
+        </div>
+        <div class="form-group">
+            <label for="Address">Adres:</label>
+            <input type="text" class="form-control" id="Address" name="Address">
+        </div>
+        @*<div class="form-group">
+        <label for="OrderDate">Data zamówienia:</label>
+        <input type="text" class="form-control" id="OrderDate" name="OrderDate">
+        </div>*@
+        <button type="submit" class="btn btn-primary">Złóż zamówienie</button>
+    </form>
+</div>
+
+<style>
+    .form-container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+</style>

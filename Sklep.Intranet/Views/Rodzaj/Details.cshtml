@@ -1,0 +1,23 @@
+﻿@model Sklep.Data.Models.Rodzaj
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<div>
+    <h4>Nazwa: @Model.Nazwa</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Opis:</dt>
+        <dd class="col-sm-10">@Model.Opis</dd>
+    </dl>
+    @if (!string.IsNullOrEmpty(Model.RodzajImagePath))
+    {
+        <img src="~/images/@Model.RodzajImagePath" alt="Rodzaj Image" class="img-fluid" />
+    }
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.IdRodzaju">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</p>

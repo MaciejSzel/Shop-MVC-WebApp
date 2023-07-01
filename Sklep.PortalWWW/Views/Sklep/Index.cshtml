@@ -1,0 +1,109 @@
+﻿@model IEnumerable<Sklep.Data.Models.Product>
+@{
+    ViewData["Title"] = "Sklep";
+    Layout = "~/Views/Shared/_SklepLayout.cshtml";
+}
+<link rel="stylesheet" href="~/css/styles.css">
+@*@await Html.PartialAsync("HeaderImagesRodzaje",(IEnumerable<Sklep.Data.Models.Rodzaj>) ViewBag.RodzajeImage)*@
+<!-- Search bar -->
+
+<section class="bg-light py-3">
+    <div class="container">
+        <form action="@Url.Action("Index", "Sklep")" method="get" class="d-flex search-form">
+            <div class="search-input-wrapper">
+                <input class="form-control me-2" type="search" id="searchInput" name="searchQuery" placeholder="Szukaj produktu" aria-label="Search" value="@ViewBag.SearchQuery" />
+                @if (!string.IsNullOrEmpty(ViewBag.SearchQuery))
+                {
+                    <span class="clear-search" title="Wyczyść" onclick="clearSearch()">&times;</span>
+                }
+            </div>
+            <button class="btn btn-outline-dark" type="submit">Szukaj</button>
+        </form>
+    </div>
+</section>
+<form action="@Url.Action("Index", "Sklep")" method="get" class="d-flex mb-3">
+    <div class="form-group">
+        <label for="pageSizeSelect">Liczba produktów na stronie:</label>
+        @Html.DropDownList("pageSize", new List<SelectListItem>
+        {
+        new SelectListItem { Text = "5", Value = "5" },
+        new SelectListItem { Text = "10", Value = "10" },
+        new SelectListItem { Text = "15", Value = "15" },
+        new SelectListItem { Text = "20", Value = "20" }
+        }, new { onchange = "this.form.submit()", id = "pageSizeSelect", @class = "form-control" })
+    </div>
+</form>
+
+<style>
+    .search-form {
+        align-items: center;
+    }
+
+    .search-input-wrapper {
+        position: relative;
+        flex-grow: 1;
+    }
+
+    .clear-search {
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        color: #999;
+        font-size: 18px;
+    }
+
+   /* body {
+        background-color: gray;
+    }*/
+
+
+
+
+</style>
+
+<div class="container px-4 px-lg-5 mt-5">
+    <div class="row">
+
+        <!-- Display subcategories -->
+        @await Html.PartialAsync("Podkategorie",(IEnumerable<Sklep.Data.Models.Podkategoria>) ViewBag.Podkategoria)
+        <!-- Display products -->
+        <div class="col-md-10">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <!-- Loop through products -->
+                @foreach (var towar in Model)
+                {
+                    <!-- Display product details -->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image -->
+                            @if (towar.Images?.Count > 0)
+                            {
+                                foreach (var image in towar.Images)
+                                {
+                                    <img class="card-img-top" src="~/images/@image.ImagePath" alt="..." />
+                                    break;
+                                }
+                            }
+                            <!-- Product details -->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name -->
+                                    <h5 class="fw-bolder">@Html.ActionLink(towar.Name, "Details", "Sklep", new { id = towar.Id }, null)</h5>
+                                    <!-- Product price -->
+                                @towar.Price
+                                </div>
+                            </div>
+                            <!-- Product actions -->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                @*<button type="button" onclick="dodajDoKoszyka(@towar.Id)">Dodaj do koszyka</button>*@
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" onclick="dodajDoKoszyka(@towar.Id)">Dodaj do koszyka</a></div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

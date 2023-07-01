@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Sklep.Data.Models.Rodzaj>
+
+@{
+    ViewData["Title"] = "Rodzaje";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lista rodzajów</h2>
+<div>
+    <a class="mdl-button mdl-button--raised mdl-button--colored" asp-action="Create">
+        Dodaj
+    </a>
+</div>
+<div class="mdl-grid">
+    @foreach (var rodzaj in Model)
+    {
+        <div class="mdl-cell mdl-cell--4-col">
+            <div class="rodzaj-card mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">@rodzaj.Nazwa</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    <p>Opis: @rodzaj.Opis</p>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" asp-action="Edit" asp-route-id="@rodzaj.IdRodzaju">Edytuj</a>
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" asp-action="Details" asp-route-id="@rodzaj.IdRodzaju">Szczegóły</a>
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" asp-action="Delete" asp-route-id="@rodzaj.IdRodzaju">Usuń</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
